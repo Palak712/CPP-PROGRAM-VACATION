@@ -7,7 +7,7 @@ int main(){
         int count=0;
         for(int j=0;j<size;j++){
             if(arr[i]=arr[j])
-                count+=1;
+                count++;
         }
         if(count==1)
             cout<<arr[i]<<" ";
